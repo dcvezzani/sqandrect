@@ -12,6 +12,7 @@ body {
     background: -moz-linear-gradient(bottom, #789, #ABC);
     margin: 15px auto 0 auto;
     padding-top: 10px;
+    padding-bottom: 10px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px 2px #222;
 }
@@ -40,7 +41,7 @@ body {
     font-size: 2em;
     font-weight: lighter;
     float: right;
-    margin-right: 15px;
+    margin-right: 25px;
     margin-bottom: 10px;
 }
 
@@ -50,7 +51,7 @@ body {
 
 #menu ul {
     width: 890px;
-    background: #BBB;
+    background: #CDA;
     padding: 5px;
     padding-bottom: 8px;
     margin: 0 auto;
@@ -72,4 +73,57 @@ body {
     color: black;
     padding: 10px;
     
+}
+
+#body {
+    width: 920px;
+    min-height: 500px;
+    margin: 20px auto 10px auto;
+    background: #EEE;
+    border-radius: 8px;
+}
+
+#article {
+    width: 670px;
+    padding: 15px;
+    float: left;
+}
+
+#postName {
+    padding: 15px 0;
+}
+
+#date {
+    padding: 0 0 15px 20px;
+}
+
+#content p {
+    padding: 0 0 15px 0;
+}
+
+#content .primary {
+    font-size: 3em;
+    font-weight: bolder;
+    float: left;
+    line-height: .7em;
+}
+
+#content .secondary {
+    font-size: 1.8em;
+    font-weight: bolder;
+    float: left;
+    line-height: .4em;
+}
+
+#content .secondarySpace {
+    font-size: 1.8em;
+    font-weight: bolder;
+    float: left;
+    padding-right: 5px;
+}
+
+#aside {
+    width: 190px;
+    padding: 15px;
+    float: right;
 }
