@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #CDA;
+}
+
+#wrapper {
+    width: 960px;
+    background: #789;
+    margin: 15px auto 0 auto;
+}
+
+#header {
+    position: relative;
+    background: #EEE;
+    width: 920px;
+    margin: 15px auto 0 auto;
+}
