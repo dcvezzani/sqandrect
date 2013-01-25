@@ -9,13 +9,67 @@ body {
 
 #wrapper {
     width: 960px;
-    background: #789;
+    background: -moz-linear-gradient(bottom, #789, #ABC);
     margin: 15px auto 0 auto;
+    padding-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px #222;
 }
 
 #header {
     position: relative;
     background: #EEE;
     width: 920px;
-    margin: 15px auto 0 auto;
+    margin: 7px auto 0 auto;
+    padding-bottom: 7px;
+    border-radius: 8px;
+    box-shadow: inset 0px 0px 15px #222;
+}
+
+#title h1 {
+    font-family: Desdemona;
+    font-size: 4.5em;
+    font-weight: normal;
+    text-align: left;
+    padding-left: 10px;
+    text-shadow: 2px 2px 3px #000;
+}
+
+#title .subHead {
+    font-family: "Edwardian Script ITC";
+    font-size: 2em;
+    font-weight: lighter;
+    float: right;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+#menu {
+    clear: both;
+}
+
+#menu ul {
+    width: 890px;
+    background: #BBB;
+    padding: 5px;
+    padding-bottom: 8px;
+    margin: 0 auto;
+    border-radius: 7px;
+    box-shadow: inset 0px 0px 9px #222;
+}
+
+#menu ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 9px;
+    box-shadow: 4px 4px 4px 1px #222;
+    background: -moz-linear-gradient(bottom, #707070, #C0C0C0);
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    
 }
