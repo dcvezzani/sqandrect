@@ -99,20 +99,31 @@ body {
 
 #content p {
     padding: 0 0 15px 0;
+    line-height: 1.4em;
 }
 
 #content .primary {
-    font-size: 3em;
+    font-size: 2.6em;
     font-weight: bolder;
     float: left;
     line-height: .7em;
+    padding: .15em .15em;
+    margin-right: .1em;
+    border: 1px solid #EEE;
+    border-radius: 5px;
+    background: -moz-linear-gradient(top, #BBB, #EEE);
+    box-shadow: inset 0px 0px 6px #999;
 }
 
 #content .secondary {
-    font-size: 1.8em;
+    font-size: 1.4em;
+    line-height: .6em;
     font-weight: bolder;
     float: left;
-    line-height: .4em;
+    border: 1px solid black;
+    padding: .15em .15em;
+    margin-right: .2em;
+    text-align: center;
 }
 
 #content .secondarySpace {
